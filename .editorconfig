@@ -1,0 +1,12 @@
+﻿[*.{cs,vb}]
+
+# IDE0003: Remove qualification
+dotnet_style_qualification_for_field = true
+
+[*.cs]
+dotnet_diagnostic.SA1101.severity=silent
+dotnet_diagnostic.SA1309.severity=silent
+dotnet_diagnostic.SA1503.severity=silent
+
+# CS8618: Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
+dotnet_diagnostic.CS8618.severity = silent
